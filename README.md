@@ -23,7 +23,7 @@ This tool helps 3D printing enthusiasts calibrate Pressure Advance (Linear Advan
   - Z Height Start: Dropdown of detected layer heights to begin PA testing
   - Pause at Z Start: Checkbox to add a pause at the starting height
 
-- **PA Calculator:**
+- **Pressure Advance Calculator:**
   - Calculates: `PA Start + (PA Step × Measured Value) = PA Value`
   - Uses current GUI values for PA Start and PA Step
   - User enters a Measured Value (e.g., height or layer number where quality is optimal)
@@ -37,7 +37,7 @@ This tool helps 3D printing enthusiasts calibrate Pressure Advance (Linear Advan
 
 - Python 3.x
 - Tkinter (usually included with Python)
-- No additional external libraries required
+- No additional external libraries are required
 
 ## Installation
 
